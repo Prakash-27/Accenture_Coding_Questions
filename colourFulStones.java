@@ -61,6 +61,5 @@ public class colourFulStones {
         String t1 = "BBBRR";
         System.out.println(colorfulStonesOneBasedPosition(t, s));
         System.out.println(colorfulStonesOneBasedPosition(t1, s1));
-
     }
 }

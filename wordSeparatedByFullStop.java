@@ -51,16 +51,15 @@ public class wordSeparatedByFullStop {
     //             j++;
     //         }
     //          else {
-    //             i+=2;
+    //             i++;
     //             j++;
-    //             length = length + 1;
+    //             length = 0;
     //         }
 
     //         if (length > maxlength) {
     //             maxlength = length;
     //         }
 
-    //         length = 0;
     //     }
     //     return maxlength;
     // }
@@ -70,6 +69,8 @@ public class wordSeparatedByFullStop {
         String str1 = "hello.shan.cpp";
         System.out.println(largestSizeOfWord(str, str.length()));
         System.out.println(largestSizeOfWord(str1, str1.length()));        
+        // System.out.println(largestSizesOfWord(str, str.length()));
+        // System.out.println(largestSizesOfWord(str1, str1.length()));        
     }
 
 }
